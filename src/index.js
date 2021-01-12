@@ -1,9 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Click from "./components/ClickityClick";
+import Button from "./components/buttonCounter";
 
 ReactDOM.render(
   <div>
-    Mount Components Here
+    <Click />
+    <Button />
   </div>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
